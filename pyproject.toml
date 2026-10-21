@@ -1,0 +1,48 @@
+[project]
+name = "ai-engineering-bootcamp-code"
+version = "0.1.0"
+description = "All the code examples from the book AI Engineering Bootcamp"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic",
+    "ddgs",
+    "fastapi",
+    "huggingface_hub",
+    "grandalf",
+    "ipython",
+    "jupyter",
+    "langchain",
+    "langchain-community",
+    "langchain_ollama",
+    "langchain-openai",
+    "langchain-qdrant",
+    "langchain-text-splitters",
+    "langchain-mcp-adapters",
+    "langgraph",
+    "matplotlib",
+    "mcp[cli]",
+    "numpy",
+    "openai",
+    "pandas",
+    "pydantic",
+    "python-dotenv",
+    "python-multipart",
+    "qdrant-client",
+    "sqlalchemy",
+    "uvicorn",
+    "ragas>=0.4.0",
+    "datasets",
+    "nest-asyncio",
+    "rapidfuzz",
+    "rank-bm25",
+    "cohere",
+    "langchain-experimental",
+    "together>=1.5.0",
+    "langgraph-api>=0.9.1",
+]
+
+[dependency-groups]
+dev = [
+    "langgraph-cli>=0.4.31",
+]
