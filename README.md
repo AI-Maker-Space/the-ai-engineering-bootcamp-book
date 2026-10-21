@@ -1,4 +1,4 @@
-# AI Engineering Bootcamp
+# The AI Engineering Bootcamp Book
 
 ## Chapter code
 
